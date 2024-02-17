@@ -4,18 +4,18 @@
 `docker-compose up -d --build`
 
 ###### Backend
-`docker-compose exec api-cont bash`
-`npm install` # First installation  
+`docker-compose exec api-cont bash`  
+`npm install` // First installation  
 `npm run start:dev`  
 http://localhost:3000/api/examples/test
 
 ###### Frontend
-`docker-compose exec frontend-cont bash`
-`npm install` # First installation  
+`docker-compose exec frontend-cont bash`  
+`npm install` //  First installation  
 `npm run dev`  
 http://localhost:3030/
 
-### First mysql data creation
+###### First mysql data creation
 `npx sequelize-cli db:seed --seed init_products_users.js`
 
 ###### Dev run  
