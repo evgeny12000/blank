@@ -3,17 +3,17 @@
 `cd /docker`
 `docker-compose up -d --build`
 
-## Backend
+###### Backend
 `docker-compose exec api-cont bash`
-`npm install` # First installation
-`npm run start:dev`
-## http://localhost:3000/api/examples/test
+`npm install` # First installation  
+`npm run start:dev`  
+http://localhost:3000/api/examples/test
 
-## Frontend
+###### Frontend
 `docker-compose exec frontend-cont bash`
-`npm install` # First installation
-`npm run dev`
-## http://localhost:3030/
+`npm install` # First installation  
+`npm run dev`  
+http://localhost:3030/
 
 ### First mysql data creation
 `npx sequelize-cli db:seed --seed init_products_users.js`
@@ -24,7 +24,7 @@
 ###### Dev run with debugger  
 `npm run dev`
 
-###### Mysql Example
+###### Mysql Example  
 http://localhost:3000/api/product/simpleQuery
 
 ###### Mongo ang JWT Example
