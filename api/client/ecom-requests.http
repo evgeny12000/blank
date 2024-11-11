@@ -1,0 +1,84 @@
+### testik
+GET http://localhost:3000/api/examples/testik
+
+### joomla
+GET http://localhost:3001/ecom/joomla/pika/test
+
+### Test3
+GET {{host}}/examples/test3
+
+### Search Orders
+POST {{ecom-host}}/ecom-report/searchOrders
+Content-Type: application/json
+
+{
+  "dateFrom": "2024-02-29",
+  "dateTo": "2024-02-29"
+}
+
+####### "orderItems": ["65dc9aac9b2b5d0dbbb722d9","65dc9b679b2b5d0dbbb722dd"]
+
+### callToEvent
+GET {{host}}/examples/callToEvent
+
+### insertItem
+POST {{ecom-host}}/ecom-product/insertItem
+Content-Type: application/json
+
+{
+  "productName":"Shashlik",
+  "price": 100
+}
+
+### findByIdList
+GET {{ecom-host}}/ecom-product/findByIdList
+
+### FindAll
+GET {{ecom-host}}/ecom-product/findAll
+
+### findWithoutModel
+GET {{ecom-host}}/ecom-product/findWithoutModel
+
+
+### makeOrder credit card
+POST {{ecom-host}}/ecom-order/makeOrder
+Content-Type: application/json
+
+{
+  "customerInfo": {
+    "email": "dodik1@mail.com"
+  },
+  "billingInfo": {
+    "fullName": "Petya",
+    "paymentMethod": "credit-card",
+    "paymentInfo": {
+      "ccNumber": "4580111122223333",
+      "cvv": 777
+    }
+  },
+  "shippingInfo": {
+    "address": "Rotshild 12"
+  },
+  "orderItems": ["65df2166ca189dff312c55af","65df2152ca189dff312c55ad"]
+}
+
+### makeOrder paypal
+POST {{ecom-host}}/ecom-order/makeOrder
+Content-Type: application/json
+
+{
+  "customerInfo": {
+    "email": "dodik2@mail.com"
+  },
+  "billingInfo": {
+    "fullName": "Jora",
+    "paymentMethod": "paypal",
+    "paymentInfo": {
+      "paypalId": 1234567890
+    }
+  },
+  "shippingInfo": {
+    "address": "Rotshild 12"
+  },
+  "orderItems": ["65df2122ca189dff312c55ab","65df2152ca189dff312c55ad"]
+}
