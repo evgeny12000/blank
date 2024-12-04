@@ -1,18 +1,4 @@
-version: '3.8'
-
 services:
-  frontend-cont:
-#    restart: always
-    build:
-      context: ../
-      dockerfile: docker/FrontendDockerfile
-    environment:
-      - PORT=${FRONTEND_PORT}
-    ports:
-      - "${FRONTEND_PORT}:${FRONTEND_PORT}"
-    volumes:
-      - ../frontend:/var/www/frontend
-
   api-cont:
 #    restart: always
     build:
