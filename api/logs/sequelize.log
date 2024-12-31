@@ -1,1 +1,81 @@
 Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT * FROM products p LIMIT 10;
+Executing (default): SELECT `id`, `title`, `image`, `createdAt`, `updatedAt` FROM `products` AS `Product`;
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT * FROM products p LIMIT 10;
+Executing (default): SELECT `id`, `title`, `image`, `createdAt`, `updatedAt` FROM `products` AS `Product`;
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT * FROM products p LIMIT 10;
+Executing (default): SELECT * FROM products p LIMIT 10;
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT * FROM products p LIMIT 10;
+Executing (default): SELECT `id`, `title`, `image`, `createdAt`, `updatedAt` FROM `products` AS `Product`;
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result

@@ -110,5 +110,16 @@ export class TypesController {
         // Создать ключи option1 и option2 и сделать всех типа boolean
         type Keys = 'option1' | 'option2';
         type Flags = { [K in Keys]: boolean };
+
+        let items: Array<{ name: string; age: number }> = [
+            { name: 'jora', age: 30 },
+            { name: 'petya', age: 40 }
+        ];
+
+        let items2: { name: string; age: number }[] = [
+            { name: 'jora', age: 30 },
+            { name: 'petya', age: 40 }
+        ];
+
     }
 }

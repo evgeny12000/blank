@@ -23,11 +23,11 @@ export class ProductService {
   }
 
 	async simpleQuery(query : any) {
-
 		const data1 =  await this.db.query("SELECT * FROM products p LIMIT 10;");
         console.log('data1',data1);
         const data2 =  await this.productModel.findAll();
-        console.log('data2',data2);
+        // console.log('data2',data2);
+        return [data2];
 	}
 
     async redisExample(query : any) {

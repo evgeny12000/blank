@@ -10,6 +10,7 @@ import {SequelizeModule} from "@nestjs/sequelize";
 import * as fs from "fs";
 import {RedisModule} from "./redis/redis.module";
 import { ExamplesModule } from './examples/examples.module';
+import { Targil1Controller } from './targilim/targil1.controller';
 
 @Module({
   imports: [
@@ -33,7 +34,7 @@ import { ExamplesModule } from './examples/examples.module';
     RedisModule,
     ExamplesModule
   ],
-  controllers: [AppController],
+  controllers: [AppController, Targil1Controller],
   providers: [AppService],
 })
 export class AppModule {}

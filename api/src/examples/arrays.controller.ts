@@ -65,6 +65,7 @@ export class ArraysController {
 
     // concat - Добавление нескольких объектов
     items = [...items, { name: 'olga', age: 23 }, { name: 'sergey', age: 33 }];
+
     // или
     items = items.concat([{ name: 'olga', age: 23 }, { name: 'sergey', age: 33 }]);
 
@@ -103,6 +104,10 @@ export class ArraysController {
 
   @Get('loops')
   async loops(): Promise<void> {
+
+    /*
+        For Loop, перебор цифрового массива, не колекции
+     */
     for (let i = 0; i < 5; i++) {
       console.log(i); // Выводит числа от 0 до 4
     }
@@ -112,16 +117,17 @@ export class ArraysController {
     ];
 
     /*
-        For-Of Loop, Перебор колекции
-        Не имеет доступ к ключам колекции, нельзя переписать источник
+        For-Of Loop, Перебор колекции или массива
+        Не имеет доступ к ключам колекции,
+        Подходит если нужно просто перебрать колекцию в которой не нужно работать с ключами
      */
     for (let item of items) {
       console.log(item.name);
     }
 
     /*
-        For-In Loop , доступ по ключу
-        Для перебора самого обьекта ,
+        For-In Loop , Перебор колекции или массива, доступ по ключу
+        Для перебора самого обьекта и доступа к ключам
      */
     for (let key in items) {
       items[key].newKey = items[key].age;
@@ -130,6 +136,8 @@ export class ArraysController {
 
     /*
         forEach , класический foreach
+        Перебор колекции или массива, неьлзя прервать операцыю с помощью break,
+        нельзя выйти из общей функции с помощью return
      */
     items.forEach((value: Item, key: number) => {
       console.log('key', key);
